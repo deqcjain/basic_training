@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "447e31f2-9973-4771-af15-d4e7a146afd4",
+		"name": "STAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26263212"
+	},
+	"item": [
+		{
+			"name": "Planets",
+			"item": [
+				{
+					"name": "https://swapi.dev/api/planets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/planets",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Films",
+			"item": [
+				{
+					"name": "https://swapi.dev/api/films",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/films",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Species",
+			"item": [
+				{
+					"name": "https://swapi.dev/api/species",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/species",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "People",
+			"item": [
+				{
+					"name": "http://stapi.co/api/v1/rest/animal/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://stapi.co/api/v1/rest/animal/search",
+							"protocol": "http",
+							"host": [
+								"stapi",
+								"co"
+							],
+							"path": [
+								"api",
+								"v1",
+								"rest",
+								"animal",
+								"search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/people/:person_path_variable",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/people/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/people",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/people",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "peopleById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/people/1",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "IPv6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://7f642d9f-42a2-40f3-b22b-3e8202acf71c.mock.pstmn.io/people/1",
+							"protocol": "https",
+							"host": [
+								"7f642d9f-42a2-40f3-b22b-3e8202acf71c",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vehicles",
+			"item": [
+				{
+					"name": "https://swapi.dev/api/vehicles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Starships",
+			"item": [
+				{
+					"name": "https://swapi.dev/api/starships",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/starships",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
